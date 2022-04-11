@@ -1,8 +1,7 @@
 # EmojiScraper
-Simple scraper to get every emoji from Unicode.org
+## Simple scraper to get every emoji from Unicode.org
 
-Clone, init and run - give it ~2 minutes, saves to `emoji-data.json` in the folder it was run from
-
+### Clone, init and run - give it ~2 minutes, saves to `emoji-data.json` in the folder it was run from
 Need to run with `--max-old-space-size=4096` else JS heap runs out of memory
 <br>
 <br>
