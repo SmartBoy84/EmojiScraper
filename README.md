@@ -10,4 +10,5 @@ Feel free to use the `emoji-data.json` in the releases, though note it is 68mb a
 <br>
 
 Run convert.js to convert data in JSON file to PNG images
+
 ALL HAIL THE EMOJI MONSTER!
