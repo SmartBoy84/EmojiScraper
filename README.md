@@ -13,4 +13,4 @@ Run convert.js to convert data in JSON file to PNG images
 <br>
 Oddly enough, this script doesn't seem to fully work (all the emoji files aren't outputted) on windows; I'd recommend running it on linux distro (wsl?)
 <hr>
-###ALL HAIL THE EMOJI MONSTER!😛
+## ALL HAIL THE EMOJI MONSTER!😛
