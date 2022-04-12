@@ -22,8 +22,9 @@ let slurpVomit = async () => {
         console.log(`Covert emojis for ${brand}`)
         await fs.mkdir(`emojis/${brand}`, { recursive: true })
 
+        let index = 0
         for (image of Object.keys(vomit[brand])) {
-            await fs.writeFile(`emojis/${brand}/${image}.png`, Buffer.from(vomit[brand][image], "base64"), { recursive: true })
+            await fs.writeFile(`emojis/${brand}/${++index}-${image}.png`, Buffer.from(vomit[brand][image], "base64"), { recursive: true })
         }
     }
 
