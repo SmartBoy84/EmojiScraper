@@ -1,3 +1,5 @@
+const { getSystemErrorMap } = require("util")
+
 const fs = require("fs").promises
 
 let slurpVomit = async () => {
@@ -17,6 +19,7 @@ let slurpVomit = async () => {
 
 
     for (brand of Object.keys(vomit)) {
+        console.log(`Covert emojis for ${brand}`)
         await fs.mkdir(`emojis/${brand}`, { recursive: true })
 
         for (image of Object.keys(vomit[brand])) {
