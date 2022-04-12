@@ -7,5 +7,6 @@ Clone, init and run - give it ~2 minutes, saves to `emoji-data.json` in the fold
 <br>
 <br>
 Feel free to use the `emoji-data.json` in the releases, though note it is 68mb and is scraped from v14 (latest as of 11/04/22)
-
+<br>
+Run convert.js to convert data in JSON file to PNG images
 ALL HAIL THE EMOJI MONSTER!
