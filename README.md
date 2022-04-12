@@ -11,4 +11,6 @@ Feel free to use the `emoji-data.json` in the releases, though note it is 68mb a
 
 Run convert.js to convert data in JSON file to PNG images
 
+Oddly enough, this script doesn't seem to fully work (all the emoji files aren't outputted) on windows; I'd recommend running it on a \*nix distro
+
 ALL HAIL THE EMOJI MONSTER!
