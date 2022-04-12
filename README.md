@@ -11,8 +11,6 @@ The emojis.rar file contains every single emoji image stored in its respective "
 <hr>
 Run convert.js to convert data in JSON file to PNG images
 <br>
-Oddly enough, this script doesn't seem to fully work (all the emoji files aren't outputted) on windows; I'd recommend running it on a \*nix distro
-<br>
-I ran it on wsl and it successfully output every image successfully
+Oddly enough, this script doesn't seem to fully work (all the emoji files aren't outputted) on windows; I'd recommend running it on linux distro (wsl?)
 <hr>
 ### ALL HAIL THE EMOJI MONSTER!😛
