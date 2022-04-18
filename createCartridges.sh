@@ -22,6 +22,7 @@ echo $(ls $DIR/${D} | grep -e .bmp -e .BMP | wc -l) emojis available
 
 ./emojifier te $CAR/${D} $DIR/${D} 3 $(ls $DIR/${D} | grep -e .bmp -e .BMP | wc -l)
 if [ $? -eq 1 ]; then ./emojifier te $CAR/${D} $DIR/${D} 1 $(ls $DIR/${D} | grep -e .bmp -e .BMP | wc -l); fi
+convert $CAR/${D}.bmp $CAR/${D}.jpg
 echo " "
 cd $DIR
 fi
