@@ -6,7 +6,10 @@ Clone, init and run - give it ~2 minutes, saves to `emoji-data.json` in the fold
 **Need to run with `--max-old-space-size=4096` else JS heap runs out of memory** 
 <hr>
 Feel free to use the premade files in the releases!
-<br>
+Emoji previews can be found\
+ 
+[here](https://github.com/SmartBoy84/Emojifier/releases/tag/Cartridges)
+<br><br>
 The emojis.rar file contains every single emoji image stored in its respective "brand" folder.
 <hr>
 Run convert.js to convert data in JSON file to PNG images
