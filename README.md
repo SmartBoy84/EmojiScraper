@@ -1,3 +1,6 @@
+# Archived in favour of a remake in golang 
+Everything handled separately here by bash, js, c is unified into one static executable over there!
+
 # EmojiScraper
 ### Simple scraper to get every emoji from Unicode.org
 
